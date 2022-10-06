@@ -62,24 +62,11 @@ function user(){
   function writeToFile(fileName, data) {}
   
   // // TODO: Create a function to initialize app
-   async function init() {
-    try{
-        const solutions = await user();
-        const gennerate = generateReadme(answers);
-        await fs.writeFileSync(`./dist/README.md`, generateContent);
-        console.log(`finished writing readme`);
-    }
-    catch(err){
-        console.log(err)
-    }
+    function init() {
+
   }
   
   // // Function call to initialize app
   user();
 
-
-        
-
-  
- 
 
