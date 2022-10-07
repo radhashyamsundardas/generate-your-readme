@@ -1,7 +1,6 @@
 // TODO: Include packages needed for this application
 const fs = require("fs");
 const inquirer = require("inquirer");
-const { type } = require("os");
 const generateMarkdown = require('./generateMarkdown');
 // const input = require("type");
 
