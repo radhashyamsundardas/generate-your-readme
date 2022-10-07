@@ -65,11 +65,11 @@ function ask(){
 }
          
   // // TODO: Create a function to write README file
-  const writeToFile = (fileName, data) => {
-    fs.ask(fileName, data), (err)=>
+  const writeFile = (fileName, data) => {
+    fs.writeFile(createReadme, questions), (err)=>
     err ? console.error(err) : console.log("you have generated README")
   }
-  console.log(writeToFile);
+  console.log(writeFile);
   
 //   / // TODO: Create a function to initialize app  ask questions
     const init = () => {
