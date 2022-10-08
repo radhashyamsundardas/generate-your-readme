@@ -77,7 +77,7 @@ const init = () => {
     .prompt(questions)
     .then((response) => {
       console.log(response);
-      fs.writeFile('readme.txt', response, (err) =>
+      fs.writeFile('sample.md', generateMarkdown({...response}), (err) =>
         err ? console.error(err) : console.log("you have generated README")
     )})
 }
