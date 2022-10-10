@@ -13,18 +13,18 @@
 ## Project
 undefined
 ## Description
-gf
+This application allowa user to create cards for the employees basend on their job title and requirements using node.js.
 ## Installation
-gf
+npm i inquirer@8.4.2, npm i jest
 ## Usage
 undefined
 ## License
-fgds
+NA
 ## Contributors
-adsf
+One
 ## Badges
 undefined
 ## GIthub
 undefined
 ## Email
-fasdf
+hirenpatel0526@yahoo.com
